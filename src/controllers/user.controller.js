@@ -50,7 +50,8 @@ const registerUser = asyncHandler( async(req, res) => {
 
     // console.log("req.files", req.files);
 
-    const avatarLocalPath = req.files?.avatar[0]?.path
+    const avatarLocalPath = req.files?.avatar[0]?.path//what is .avatar and .path? 
+    //
     // console.log("avatarLocalPath", avatarLocalPath);
 
     let coverImageLocalPath;
@@ -256,7 +257,7 @@ const updateUserDetails = asyncHandler(async(req, res) => {
     const user = await User.findByIdAndUpdate(
         req.user?._id,
         {
-            $set: {
+            $set: {   //&
                 fullName,
                 email
             }
