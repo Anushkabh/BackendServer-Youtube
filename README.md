@@ -8,7 +8,7 @@ and also combines the tweet functionality from twitter into it.
 
 | Content            | Link                                                                        |
 | -------------------| ----------------------------------------------------------------------------|
-| API Documentation  | [click here](https://documenter.getpostman.com/view/28570926/2s9YsNdVwW)    |
+| API Documentation  | [click here](https://documenter.getpostman.com/view/28003001/2sAXjQ1AFJ)    |
 | Model              | [click here ](https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj)         |
 
 ## Features
